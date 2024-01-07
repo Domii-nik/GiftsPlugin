@@ -4,3 +4,17 @@ main: de.domii.gifts.Gifts
 api-version: '1.20'
 authors: [DS1_0, Domii]
 description: A Plugin that creates Gifts
+commands:
+  gift:
+    aliases:
+      - Geschenk
+    description: Has a bunch of options for the Gift Plugin
+permissions:
+  Gifts.createGift:
+    description: Allows the player to create a gift at the position they're looking at
+  Gifts.deleteGift:
+    description: Allows the player to delete the gift they're looking at
+  Gifts.editGift:
+    description: Allows the player to edit the Gift they're looking at
+  Gifts.wand:
+    description: Allows the player to get and use the wand

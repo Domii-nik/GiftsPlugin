@@ -1,4 +1,4 @@
-package net.dragonlounge.dragonloungebuild.Manager;
+package de.domii.gifts.manager;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
