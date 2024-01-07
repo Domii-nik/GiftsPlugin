@@ -38,7 +38,7 @@ public class GiftClaimListener implements Listener {
                 double z = giftData.getDouble("z");
 
                 if (location.getX() == x && location.getY() == y && location.getZ() == z) {
-                    FileConfiguration playerData = YamlConfiguration.loadConfiguration(new File(main.getDataFolder(), "playerdata.yml"));
+                    FileConfiguration playerData = YamlConfiguration.loadConfiguration(new File(main.getDataFolder(), "playerData.yml"));
                     ConfigurationSection playersSection = playerData.getConfigurationSection("Player-Data");
                     ConfigurationSection playerSection = playersSection.getConfigurationSection(player.getUniqueId().toString());
                     if (playerSection == null) {
