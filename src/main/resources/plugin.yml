@@ -1,0 +1,6 @@
+name: Gifts
+version: '${project.version}'
+main: de.domii.gifts.Gifts
+api-version: '1.20'
+authors: [DS1_0, Domii]
+description: A Plugin that creates Gifts
